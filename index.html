@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<title>Eric's Sweet Drum Machine</title>
+		<script type="text/javascript" src="script.js"></script>
+		<link type="text/css" rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+			<div id="controls">
+				<h1>Eric's Sweet Drum Machine</h1>
+					<form id="inputForm">
+						<b>BPM:</b>
+						<input id="bpmInput" name="bpm" type="number" min="0" max="600" step="5" value="120">
+						<input id="playButton" type="button" value="Play">
+						<input id="stopButton" type="button" value="Stop">
+						<input id="clearButton" type="button" value="Clear">
+						<input id="randomButton" type="button" value="Randomize">
+						<input id=saveButton type="button" value="Save">
+						<input id=saveValue type="text" placeholder="copy and paste this text to save/load your masterpiece">
+						<input id=loadButton type="button" value="Load">
+					</form>
+			</div>
+		<table id="stepSequencer">
+		</table>
+	</body>
+</html>
